@@ -1,0 +1,10 @@
+streamlit==1.47.1
+faiss-cpu==1.11.0
+sentence-transformers==5.1.0
+pymupdf==1.26.3
+numpy==2.3.2
+pandas==2.3.1
+ollama==0.5.3
+langchain==0.3.27
+langchain-community==0.3.27
+langchain-core==0.3.72
