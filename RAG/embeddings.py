@@ -2,7 +2,7 @@ from sentence_transformers import SentenceTransformer
 import numpy as np
 
 # Load local embedding model
-model = SentenceTransformer("all-MiniLM-L6-v2")
+model = SentenceTransformer("models/all-MiniLM-L6-v2")
 
 
 def create_embeddings(chunks):

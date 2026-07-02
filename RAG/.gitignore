@@ -8,9 +8,5 @@ __pycache__/
 # PDF files
 data/
 
-# Generated files
-chunks.pkl
-faiss_index.pkl
-
 # Environment variables
 .env

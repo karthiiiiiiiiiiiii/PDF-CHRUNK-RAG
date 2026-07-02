@@ -3,13 +3,13 @@ import numpy as np
 from sentence_transformers import SentenceTransformer
 
 # Load embedding model once
-model = SentenceTransformer("all-MiniLM-L6-v2")
+model = SentenceTransformer("models/all-MiniLM-L6-v2")
 
 
 def create_faiss_index(embeddings):
 
     # Convert embeddings to float32
-    embeddings = np.array(
+    embeddings = np.array( 
         embeddings,
         dtype="float32"
     )
