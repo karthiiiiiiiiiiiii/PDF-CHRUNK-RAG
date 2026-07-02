@@ -1,0 +1,16 @@
+# Virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# PDF files
+data/
+
+# Generated files
+chunks.pkl
+faiss_index.pkl
+
+# Environment variables
+.env
